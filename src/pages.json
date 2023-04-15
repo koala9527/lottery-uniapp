@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "彩票拍照中奖识别"
+			}
+		},	
+		{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+	},
+
+		{
+			"path": "pages/home/help",
+			"style": {
+				"navigationBarTitleText": "帮助信息"
+			}
+		},	
+		{
+			"path": "pages/home/suggest",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}
+		
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "彩票拍照中奖识别",
+		"navigationBarBackgroundColor": "#f08383",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#f08383",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [
+		  {
+			"pagePath": "pages/center/center",
+			"text": "识别",
+			"iconPath": "/static/tabbar/center.png",
+			"selectedIconPath": "/static/tabbar/center-active.png"
+		  },
+		  {
+			"pagePath": "pages/home/home",
+			"text": "我的",
+			"iconPath": "/static/tabbar/home.png",
+			"selectedIconPath": "/static/tabbar/home-active.png"
+		  }
+		]
+	}
+}
