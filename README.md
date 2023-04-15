@@ -25,7 +25,7 @@
 
 # 界面
 ![接口地址](/image/index.png)
-![接口地址](/image/show.png)
+![接口地址](/image/show.jpg)
 ![接口地址](/image/home.png)
 
 # 前端 
