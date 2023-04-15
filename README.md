@@ -29,12 +29,14 @@
 ![接口地址](/image/home.png)
 
 # 前端 
-默认模板 来测试支付宝平台能力
+uniapp cli 使用 默认模板 来测试支付宝平台能力
+
+常用命令：
 ```
 npm  install 
 
 ```
-最初是向上到支付宝
+最初是想到支付宝，发现其他平台也不行
 ```
 npm run dev:mp-alipay
 
