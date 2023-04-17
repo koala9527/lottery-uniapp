@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  hello-lottery:
+    image: registry.cn-shenzhen.aliyuncs.com/koala9527/hello-lottery-small:latest
+    container_name: hello-lottery
+    restart: always
+    ports:    # 指定端口映射
+      - "5002:5002"
+    volumes:
+      - /path/lottery/uploads:/app/uploads
+
