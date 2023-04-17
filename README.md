@@ -47,8 +47,9 @@ npm run build:mp-alipay
 
 # 后端：
 
+查看docker-compose 部署的文件直接部署就可以了 
 
-后端服务：registry.cn-shenzhen.aliyuncs.com/koala9527/hello-lottery-small  （10G，因为包含模型文件，pytorch包也特别大）  
+后端服务：registry.cn-shenzhen.aliyuncs.com/koala9527/hello-lottery-small  （13G，因为包含模型文件，pytorch包也特别大）  
 
 
 自己使用flask 增加了一个接口：
